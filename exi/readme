@@ -1,0 +1,4 @@
+pip install numpy==1.23.5
+conda create -n ocr_env python=3.9 numpy pandas tensorflow scikit-learn opencv
+conda activate ocr_env
+# Then run your script
